@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Himanshu Patanvadiya - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
@@ -29,11 +32,13 @@
     />
 
     <link rel="stylesheet" type="text/css" href="portfolio.css" />
+    <link rel="preload" as="image" href="./Assets/thakor1.webp">
+
   </head>
   <body>
     <header class="header">
       <a href="#" class="logo"
-        ><img width="100%" src="./Assets/logo.png" alt=""
+        ><img width="100%" src="./Assets/logo.webp" alt=""
       /></a>
 
       <nav class="navbar">
@@ -60,7 +65,15 @@
         <a href="#contact" class="cta-btn">Get In Touch</a>
       </div>
       <div class="hero-image reveal-right">
-        <img src="./Assets/thakor1.png" alt="" />
+        <!-- <img src="./Assets/Thakor.webp" alt="" /> -->
+        <img 
+          src="./Assets/Thakor.webp"
+          alt="Himanshu Patanvadiya"
+          width="420"
+          height="520"
+          fetchpriority="high"
+        />
+
       </div>
     </section>
 
@@ -68,7 +81,9 @@
       <div class="container">
         <div>
           <div class="about-image reveal-left">
-            <img src="./Assets/rider.jpg" alt="About Himanshu" />
+            <!-- <img src="./Assets/rider.webp" alt="About Himanshu" /> -->
+            <img src="./Assets/rider.webp" loading="lazy" alt="About Himanshu">
+
           </div>
           <div class="about-content reveal-right">
             <h2 class="reveal-top">About <span>Me</span></h2>
@@ -214,7 +229,7 @@
             </div>
           </div>
           <div class="project-card">
-            <img src="./Assets/gemini-clone.png" alt="Certificates" />
+            <img src="./Assets/gemini-clone.webp" alt="Certificates" />
             <div class="overlay">
               <h3>Gemini Clone</h3>
               <p>
