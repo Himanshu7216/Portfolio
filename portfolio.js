@@ -33,6 +33,15 @@ navLinks.forEach((link) => {
   });
 });
 
+document.getElementById('downloadResume').addEventListener("click",function(){
+  const link=this.querySelector('a');
+  link.href ="Assets/Himanshu_B_Patanvadiya.pdf";
+  link.download = "Himanshu_B_Patanvadiya.pdf";
+  link.click();
+});
+
+
+
 // --- SKILLS ANIMATION ON SCROLL ---
 const skillItems = document.querySelectorAll(".skill-item");
 
