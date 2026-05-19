@@ -4,7 +4,7 @@ var typed = new Typed(".text", {
     "Frontend Developer",
     "Javascript Developer",
     "PHP Developer",
-    "Database Administrator",
+    "Shopify Developer",
   ],
   typeSpeed: 80,
   backSpeed: 80,
@@ -35,8 +35,8 @@ navLinks.forEach((link) => {
 
 document.getElementById('downloadResume').addEventListener("click",function(){
   const link=this.querySelector('a');
-  link.href ="Assets/Himanshu_B_Patanvadiya.pdf";
-  link.download = "Himanshu_B_Patanvadiya.pdf";
+  link.href ="Assets/Resume.pdf";
+  link.download = "Resume.pdf";
   link.click();
 });
 
